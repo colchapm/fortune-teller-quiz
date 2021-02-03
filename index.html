@@ -8,6 +8,34 @@
 	<title>Fortune Teller Quiz</title>
 </head>
 <body>
-
+	<div class="container">
+		<div class="jumbotron">
+			<h2>Fortune Teller Quiz</h2>
+		</div>
+		<form id="survey">
+			<div class="form-group">
+				<p>In the past week, the following unlucky things have happened:</p>
+				<input type="checkbox" name="unlucky-events" value="black-cat">A black Cat crossed the road.<br>
+				<input type="checkbox" name="unlucky-events" value="coin-loss">You lost a coin toss.<br>
+				<input type="checkbox" name="unlucky-events" value="umbrella">You opened an umbrella indoors.<br>
+				<input type="checkbox" name="unlucky-events" value="salt-tip">You tipped a salt shaker over.<br>
+			</div>
+			<div class="form-group">
+				<p>In the past week, the following lucky things have happened:</p>
+				<input type="checkbox" name="lucky-events" value="scratch-it">You won money from a scratch-it.<br>
+				<input type="checkbox" name="lucky-events" value="held-door">Someone held a door open for you.<br>
+				<input type="checkbox" name="lucky-events" value="Albatross">You got to witness this bird or got a double eagle while golfing.<br>
+				<input type="checkbox" name="lucky-events" value="rainbow">You saw a rainbow.<br>
+			</div>
+			<div class="form-group">
+				<p>In the past week, the following miracles have manifested for you.</p>
+				<input type="checkbox" name="miracle-events" value="double-rainbow">You witnessed a Double Rainbow!<br>
+				<input type="checkbox" name="miracle-events" value="snow-daya">Your school or work was canceled from a snow day.<br>
+				<input type="checkbox" name="miracle-events" value="hit-lotto">You hit the lottery!<br>
+			</div>
+			<button type="submit">Submit Survey!</button>
+		</form>
+		<span id="fortune"></span>
+	</div>
 </body>
 </html>
